@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dark Zap",
+  "description": "Essa extensão vai facilitar a ativação do tema escuro do WhatsApp Web",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon-light.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs", "<all_urls>", "activeTab"
+   ]
+}
